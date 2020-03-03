@@ -1,0 +1,28 @@
+---
+source: src/codegen/codegen.rs
+expression: "CodeGenerator::new().generate_code(ast)"
+---
+Ok(
+    [
+        FunctionDecl(
+            "main",
+        ),
+        Integer(
+            2,
+        ),
+        Push(
+            "rax",
+        ),
+        Integer(
+            4,
+        ),
+        Pop(
+            "rcx",
+        ),
+        GreaterThan(
+            "rax",
+            "rcx",
+        ),
+        Return,
+    ],
+)

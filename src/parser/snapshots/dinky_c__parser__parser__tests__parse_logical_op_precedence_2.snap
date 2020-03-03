@@ -1,0 +1,9 @@
+---
+source: src/parser/parser.rs
+expression: ast
+---
+FN (id: main)
+	returns: int
+	params: ()
+	body:
+		RETURN ((1 || 0) && 0)

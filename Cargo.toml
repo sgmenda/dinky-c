@@ -1,0 +1,10 @@
+[package]
+name = "dinky-c"
+version = "0.1.0"
+authors = ["sanketh <c1own.com>"]
+edition = "2018"
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[dev-dependencies]
+insta = "*"

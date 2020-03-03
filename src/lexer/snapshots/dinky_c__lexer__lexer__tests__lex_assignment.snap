@@ -1,0 +1,42 @@
+---
+source: src/lexer/lexer.rs
+expression: lex(&input)
+---
+Ok(
+    [
+        INT,
+        Identifier(
+            "main",
+        ),
+        OpenParenthesis,
+        CloseParenthesis,
+        OpenBrace,
+        INT,
+        Identifier(
+            "x",
+        ),
+        Equals,
+        Integer(
+            10,
+        ),
+        Semicolon,
+        Identifier(
+            "x",
+        ),
+        Equals,
+        Identifier(
+            "x",
+        ),
+        Plus,
+        Integer(
+            12,
+        ),
+        Semicolon,
+        RETURN,
+        Identifier(
+            "x",
+        ),
+        Semicolon,
+        CloseBrace,
+    ],
+)

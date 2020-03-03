@@ -1,0 +1,14 @@
+---
+source: src/x86_64_gen/x86_64_gen.rs
+expression: x86_64_asm
+---
+	.globl _main
+_main:
+	mov	rax, 4
+	push	rax
+	mov	rax, 2
+	pop	rcx
+	cqo
+	idiv	rcx
+	ret
+

@@ -1,0 +1,7 @@
+---
+source: src/parser/parser.rs
+expression: parse(tokens)
+---
+Err(
+    "Expected RETURN, found Some(Integer(1)).",
+)

@@ -1,0 +1,17 @@
+---
+source: src/lexer/lexer.rs
+expression: lex(&input)
+---
+Ok(
+    [
+        RETURN,
+        Integer(
+            3,
+        ),
+        Asterisk,
+        Integer(
+            3,
+        ),
+        Semicolon,
+    ],
+)

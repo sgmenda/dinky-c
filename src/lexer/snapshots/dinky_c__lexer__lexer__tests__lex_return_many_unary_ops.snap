@@ -1,0 +1,19 @@
+---
+source: src/lexer/lexer.rs
+expression: lex(&input)
+---
+Ok(
+    [
+        RETURN,
+        BitwiseComplement,
+        LogicalNegation,
+        BitwiseComplement,
+        BitwiseComplement,
+        Minus,
+        LogicalNegation,
+        Integer(
+            3,
+        ),
+        Semicolon,
+    ],
+)

@@ -1,0 +1,21 @@
+---
+source: src/lexer/lexer.rs
+expression: lex(&input)
+---
+Ok(
+    [
+        RETURN,
+        Integer(
+            1,
+        ),
+        DoublePipe,
+        Integer(
+            0,
+        ),
+        DoubleAmpersand,
+        Integer(
+            2,
+        ),
+        Semicolon,
+    ],
+)

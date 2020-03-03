@@ -1,0 +1,16 @@
+---
+source: src/codegen/codegen.rs
+expression: generate_code(input)
+---
+Ok(
+    [
+        FunctionDecl(
+            "main",
+        ),
+        Integer(
+            110,
+        ),
+        Negation,
+        Return,
+    ],
+)
