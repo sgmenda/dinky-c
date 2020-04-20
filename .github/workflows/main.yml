@@ -23,5 +23,5 @@ jobs:
       - name: Coveralls upload
         uses: coverallsapp/github-action@master
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.coveralls_repo_token }}
           path-to-lcov: ${{ steps.coverage.outputs.report }}
