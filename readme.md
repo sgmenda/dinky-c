@@ -1,11 +1,8 @@
 # DinkyC: A Dinky C Compiler in Rust
 
+![Build](https://github.com/sgmenda/dinky-c/workflows/Rust/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/sgmenda/dinky-c/badge.svg?branch=master)](https://coveralls.io/github/sgmenda/dinky-c?branch=master)
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-<!-- Add CI badges -->
-<!-- Github Actions -->
-<!--https://github.com/marketplace/actions/rust-tarpaulin -->
-<!--https://github.com/marketplace/actions/rust-grcov -->
-<!--https://github.com/xd009642/tarpaulin travis -->
 
 * A compiler for a small subset of `C`.
 * Written in `rust`.
